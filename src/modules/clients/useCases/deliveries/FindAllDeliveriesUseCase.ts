@@ -10,6 +10,7 @@ export class FindAllDeliveriesUseCase {
             select: {
                 id: true,
                 username: true,
+                //@ts-ignore
                 deliveries: true,
             },
         });
